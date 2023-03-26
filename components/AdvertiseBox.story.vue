@@ -1,11 +1,16 @@
 <script setup>
-import AdvertiseBox from './AdvertiseBox'
+import AdvertiseBox from './AdvertiseBox.vue'
 </script>
 
 <template>
   <Story>
-    <AdvertiseBox header="Starter" color="green-600" icon="prime-check-circle">
-      Starter for Vue.js Development with Nuxt 3
-    </AdvertiseBox>
+    <Variant title="Default">
+      <AdvertiseBox header="Some PrimeVue Content" icon="prime-check-circle" color="blue">
+        <div class="mb-4">
+          PrimeVue Secondary Button
+        </div>
+        <Button label="Secondary" severity="secondary" rounded />
+      </AdvertiseBox>
+    </Variant>
   </Story>
 </template>
