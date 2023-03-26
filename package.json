@@ -1,11 +1,6 @@
 {
   "name": "nuxt3-primevue-starter",
-<<<<<<< HEAD
-  "version": "1.3.2",
-  "private": true,
-=======
   "version": "1.3.4",
->>>>>>> upstream/main
   "license": "MIT",
   "scripts": {
     "build": "nuxi build",
@@ -24,34 +19,6 @@
     "story:preview": "histoire preview"
   },
   "devDependencies": {
-<<<<<<< HEAD
-    "@antfu/eslint-config": "^0.35.1",
-    "@formkit/nuxt": "^1.0.0-beta.14",
-    "@histoire/plugin-nuxt": "^0.14.2",
-    "@histoire/plugin-vue": "^0.14.2",
-    "@iconify-json/carbon": "^1.1.14",
-    "@iconify-json/mdi": "^1.1.46",
-    "@iconify-json/prime": "^1.1.4",
-    "@iconify-json/twemoji": "^1.1.10",
-    "@nuxt/content": "^2.4.3",
-    "@nuxt/test-utils": "^3.2.0",
-    "@pinia/nuxt": "^0.4.6",
-    "@sfxcode/nuxt-primevue": "^1.0.0",
-    "@unocss/nuxt": "^0.49.4",
-    "@vitejs/plugin-vue": "^4.0.0",
-    "@vitest/ui": "^0.28.4",
-    "@vueuse/nuxt": "^9.12.0",
-    "c8": "^7.12.0",
-    "eslint": "^8.34.0",
-    "histoire": "^0.14.2",
-    "jsdom": "^21.1.0",
-    "nuxt": "^3.2.0",
-    "pinia": "^2.0.30",
-    "sass": "^1.58.0",
-    "typescript": "^4.9.5",
-    "vitest": "^0.28.4"
-    
-=======
     "@antfu/eslint-config": "^0.37.0",
     "@histoire/plugin-nuxt": "0.14.2",
     "@histoire/plugin-vue": "^0.15.8",
@@ -75,7 +42,8 @@
     "sass": "^1.60.0",
     "typescript": "^5.0.2",
     "vitest": "^0.29.7"
-
->>>>>>> upstream/main
+  },
+  "dependencies": {
+    "keycloak-js": "^21.0.1"
   }
 }
