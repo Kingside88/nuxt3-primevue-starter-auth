@@ -1,6 +1,12 @@
-<script setup>
+<script lang="ts" setup>
+import Keycloak, { KeycloakConfig } from 'keycloak-js'
+import { useKeycloak } from '@/stores/keycloak'
+
+const config = useRuntimeConfig()
+const store = useKeycloak()
+
 useHead({
-  title: 'Nuxt 3 PrimeVue Starter'
+  title: config.public.APP_NAME
 })
 </script>
 

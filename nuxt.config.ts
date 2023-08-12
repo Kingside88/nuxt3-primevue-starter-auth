@@ -4,9 +4,17 @@ export default defineNuxtConfig({
   devtools: true,
   ssr: true,
   runtimeConfig: {
+    AUTH_ORIGIN: "http://localhost:3000", 
+    KEYCLOAK_CLIENT_ID: "time-attendance-web",
+    KEYCLOAK_SECRET: "ELQTKN7sMrMJueVTZM9bAVzE4PU0Xc1x",
+    KEYCLOAK_URL: "https://keycloak.devandy.de",
+    KEYCLOAK_REALM: "kingside",
+
     public: {
       APP_VERSION: pkg.version,
-      APP_NAME: pkg.name
+      APP_NAME: pkg.name,
+      API_BASE_URL: '',
+      THEME: 'mdc-dark-indigo'
     }
   },
   modules: [
